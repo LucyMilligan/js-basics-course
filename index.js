@@ -91,7 +91,61 @@
 //     console.log(key, person[key]);
 // };
 
-//for-of loop
-const colours = ['red', 'blue', 'green'];
-for (let colour of colours)
-    console.log(colour);
+// //for-of loop
+// const colours = ['red', 'blue', 'green'];
+// for (let colour of colours)
+//     console.log(colour);
+
+// //methods
+// const something = {
+//     key1: value1,
+//     key2: function() {
+//         statements/logic
+//     }
+// };
+
+// something.key2()
+
+// //factory function
+// function createCircle(radius) {
+//     return {
+//         radius,
+//         draw() {
+//             console.log('draw')
+//         }
+//     };
+// }
+
+// const circle1 = createCircle(1);
+// circle1.draw()
+// console.log(circle1.radius)
+
+
+// // Constructor function
+// function Circle(radius) {
+//     this.radius = radius;
+//     this.draw = function () {
+//         console.log('draw');
+//     }
+// }
+
+// const circle = new Circle(1)
+// circle.draw()
+// console.log(circle.radius)
+
+
+// // dynamic objects
+// const circle = {
+//     radius: 1
+// }
+
+// circle.colour = "red"
+// delete circle.colour
+// console.log(circle)
+
+// //Date objects
+// const now = new Date()
+// const someDate = new Date(2025, 4, 12)
+
+// console.log(now)
+// console.log(someDate)
