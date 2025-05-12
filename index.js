@@ -149,3 +149,24 @@
 
 // console.log(now)
 // console.log(someDate)
+
+
+// //Finding elements of reference type arrays
+// const courses = [
+//     {id: 2, name: 'a'},
+//     {id: 3, name: 'c'},
+// ];
+
+// const aCourse = courses.find(function(course) {
+//     return course.name === 'a'
+// });
+
+
+// arrow functions
+const courses = [
+    {id: 2, name: 'a'},
+    {id: 3, name: 'c'},
+];
+
+const aCourse = courses.find(course => course.name === 'a');
+console.log(aCourse)
