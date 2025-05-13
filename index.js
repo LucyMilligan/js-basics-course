@@ -162,11 +162,65 @@
 // });
 
 
-// arrow functions
-const courses = [
-    {id: 2, name: 'a'},
-    {id: 3, name: 'c'},
-];
+// // arrow functions
+// const courses = [
+//     {id: 2, name: 'a'},
+//     {id: 3, name: 'c'},
+// ];
 
-const aCourse = courses.find(course => course.name === 'a');
-console.log(aCourse)
+// const aCourse = courses.find(course => course.name === 'a');
+// console.log(aCourse)
+
+// //iterating arrays
+// const numbers = [1, 2, 3, 4]
+
+// numbers.forEach(number => console.log(number))
+
+
+// //sorting arrays
+// const numbers = [4, 6, 2, 78, 35, 3]
+// numbers.sort()
+// console.log(numbers)
+
+// const courses = [
+//     { id: 1, name: 'Node.js' },
+//     { id: 2, name: 'javascript' }
+// ];
+
+// courses.sort((a, b) => {
+//     const nameA = a.name.toLowerCase();
+//     const nameB = b.name.toLowerCase();
+
+//     if (nameA < nameB) return -1;
+//     if (nameA > nameB) return 1;
+//     return 0;
+// })
+
+// console.log(courses)
+
+// // testing elements of an array
+// const numbers = [1, -2, 3, 4, -5]
+
+// const allPositive = numbers.every(function(n) {
+//     return n >= 0}
+// );
+
+// console.log(allPositive)
+
+// //mapping elements of an array
+// const numbers = [1, 2, 3]
+// const objs = numbers
+//     .map(n => ({ value: n }))
+//     .filter(obj => obj.value > 1)
+
+// const items = numbers.map(n => '<li>' + n + '<li>')
+// console.log(items)
+// console.log(objs)
+
+// //reducing an array
+// const numbers = [1, 2, 3, 4, 5]
+// const sum = numbers.reduce(
+//     (accumulator, currentValue) => accumulator + currentValue
+// );
+
+// console.log(sum)
