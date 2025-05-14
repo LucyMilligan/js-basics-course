@@ -224,3 +224,55 @@
 // );
 
 // console.log(sum)
+
+// //rest operator
+// function sum(...args) {
+//     return args.reduce((a, b) => a + b)
+// }
+
+// console.log(sum(1, 2, 3, 4));
+
+
+// // getters and setters
+// const person = {
+//     firstName: "Lucy",
+//     lastName: "Milligan",
+//     get fullName() {
+//         return `${person.firstName} ${person.lastName}`
+//     },
+//     set fullName(value) {
+//         if (typeof value !== 'string')
+//             throw new Error('Value is not a string.');
+
+//         const parts = value.split(' ');
+//         if (parts.length !== 2)
+//             throw new Error('Enter a first and last name.')
+
+//         this.firstName = parts[0];
+//         this.lastName = parts[1]
+//     }
+// };
+
+// // want to set the person object to a new name
+// try {
+// person.fullName = '';
+// }
+// catch (e) {
+//     alert(e); 
+// }
+
+// // console.log(person.fullName)
+
+
+// this
+const video = {
+    title: 'a',
+    tags: ['a', 'b', 'c'],
+    showTags() {
+        this.tags.forEach(tag => {
+            console.log(this.title, tag)
+        });
+    }
+}
+
+video.showTags();
